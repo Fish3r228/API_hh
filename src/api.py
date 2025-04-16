@@ -3,7 +3,7 @@ from src.abstract_classes import VacancyAPI
 
 
 class HeadHunterAPI(VacancyAPI):
-    """Класс для работы с API HeadHunter"""
+    """Класс для работы с API Headhunter"""
 
     def __init__(self):
         self.url = "https://api.hh.ru/vacancies"

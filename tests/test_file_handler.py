@@ -6,7 +6,7 @@ from src.vacancy import Vacancy
 
 @pytest.fixture
 def json_saver(tmp_path):
-    """Фикстура для тестирования JSONSaver"""
+    """Фикстура для тестирований JSONSaver"""
     filename = tmp_path / "test_vacancies.json"
     return JSONSaver(filename=filename)
 

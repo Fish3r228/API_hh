@@ -4,7 +4,7 @@ from unittest.mock import patch, Mock
 
 @patch("requests.get")
 def test_get_vacancies_success(mock_get):
-    """Тест успешного получения вакансий"""
+    """Тест успешного получения вакансии"""
     mock_response = Mock()
     mock_response.status_code = 200
     mock_response.json.return_value = {"items": [{"name": "Python Developer"}]}

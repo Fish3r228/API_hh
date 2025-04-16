@@ -118,7 +118,7 @@ def filter_vacancies(vacancies, filter_words):
 
 
 def get_vacancies_by_salary(vacancies, salary_range):
-    """Фильтрация вакансий по диапазону зарплат"""
+    """Фильтрация вакансий по диапазону зарплаты"""
     if not salary_range:
         return vacancies
 

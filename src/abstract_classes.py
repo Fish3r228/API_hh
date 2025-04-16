@@ -10,7 +10,7 @@ class VacancyAPI(ABC):
 
 
 class FileHandler(ABC):
-    """Абстрактный класс для работы с файлами"""
+    """Абстрактный класс для работы с файламии"""
 
     @abstractmethod
     def add_vacancy(self, vacancy):
