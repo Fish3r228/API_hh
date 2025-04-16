@@ -8,7 +8,7 @@ class Vacancy:
         self.description = description
 
     def validate_salary(self, salary):
-        """Валидация данных о зарплате"""
+        """Валидация данных о зарплатах"""
         if isinstance(salary, str):
             return {"from": 0, "to": 0, "currency": salary}
 

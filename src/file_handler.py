@@ -4,7 +4,7 @@ from src.abstract_classes import FileHandler
 
 
 class JSONSaver(FileHandler):
-    """Класс для сохранения вакансий в JSON-файл"""
+    """Класс для сохранения вакансий в JSON-файле"""
 
     def __init__(self, filename="vacancies.json"):
         self.filename = filename

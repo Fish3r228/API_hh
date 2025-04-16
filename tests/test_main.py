@@ -3,7 +3,7 @@ from src.vacancy import Vacancy
 
 
 def test_filter_vacancies():
-    """Тест фильтрации вакансий по ключевым словам"""
+    """Тест фильтраций вакансий по ключевым словам"""
     vacancies = [
         Vacancy("Dev1", "link1", None, "Python experience required"),
         Vacancy("Dev2", "link2", None, "Java experience required"),

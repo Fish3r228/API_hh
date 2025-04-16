@@ -2,7 +2,7 @@ from src.vacancy import Vacancy
 
 
 def test_vacancy_creation():
-    """Тест создания вакансии"""
+    """Тест создания вакансий """
     vacancy = Vacancy(
         title="Python Developer",
         link="https://hh.ru/vacancy/123",
